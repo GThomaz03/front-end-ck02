@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Oranienbaum", serif;
+}
+
+.container_background{
+    background-image: url(/image/Sobre.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+header nav ul{
+    position: fixed;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #fff5e923;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+}
+
+header ul li a:hover{
+    text-decoration: none;
+    color: #F29422;
+    border-bottom: 2px solid #F29422;
+    font-weight: bold;
+    transition: all 0.3s;
+    transform: scale(1.1); 
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+main{
+    width: 90vw;
+
+}
+
+.area1{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 50px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60vh;
+    height: 60vh;
+}
+
+.imagens img{
+    width: 32%;
+    height: 32%;
+}
+
+.imagens img:hover{
+    transition: all .5s ease-in-out;
+    transform: scale(1.06);
+}
+
+.texto_main{
+    font-size: 30px;
+    width: 55vw;
+}
+
+.area1 p{
+    margin-top: 10px;
+}
+
+.container{
+    width: 100vw;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #DFE0DF;
+    color: #006E5F;
+   
+}
+
+footer p {
+    padding: 10px;
+    
+}
+
+.icon{
+    width: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
